@@ -1,4 +1,5 @@
 # Parcial2
+Juan David Calderon Gonzalez, 202320117
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
 
