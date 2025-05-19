@@ -1,0 +1,20 @@
+<div *ngIf="selected">
+   <app-vuelos-detail [vuelosDetail]="selectedVuelo"></app-vuelos-detail>
+ </div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-4" *ngFor="let vuelo of vuelos">
+      <div class="card p-2" style="width: 15rem; height: 33rem;">
+    
+        <div class="card-body" >
+          <h5 class="card-title" (click)="onSelected(vuelo)">{{ vuelo.airlineName }} </h5>
+          
+          
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
